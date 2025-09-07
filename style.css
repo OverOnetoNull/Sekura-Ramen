@@ -572,6 +572,7 @@ table td {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 16px;
 
 }
 
@@ -634,6 +635,8 @@ table td {
     .navlist.show {
         display: flex;
         background: rgba(239, 10, 10, 0.4);
+        width: auto;
+
     }
 
     .hamburger-button {
@@ -692,7 +695,10 @@ table td {
         padding-right: 0px;
     }
 
+    .our-menu-text {
 
+        font-size: 64px;
+    }
 
 
     .order-inhalt {
@@ -790,7 +796,7 @@ table td {
 
         height: 44px;
         margin-right: 200px;
-        margin-left: 0px;
+        margin-left: 10px;
 
     }
 
@@ -860,8 +866,8 @@ table td {
 
     .navlist.show {
         display: flex;
-
-        background: rgba(62, 20, 155, 0.4);
+        background: rgba(255, 7, 7, 0.4);
+        width: auto;
     }
 
     .hamburger-button {
@@ -975,7 +981,7 @@ table td {
     .our-menu-text {
 
         text-align: center;
-        font-size: 64px;
+        font-size: 40px;
         margin-bottom: 48px;
     }
 
